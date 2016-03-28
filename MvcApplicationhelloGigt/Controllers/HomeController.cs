@@ -13,8 +13,13 @@ namespace MvcApplicationhelloGigt.Controllers
 
         public ActionResult Index()
         {
+            Response.Write("<h1>Hello Git</h1>");
             return View();
         }
-
+        public ActionResult Foo()
+        {
+            Response.Write("<h1>Hello Foo</h1>");
+            return View();
+        }
     }
 }
