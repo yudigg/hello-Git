@@ -26,5 +26,10 @@ namespace MvcApplicationhelloGigt.Controllers
             Response.Write("<h1>hello foo</h1>");
             return View();
         }
+        public ActionResult Stuff()
+        {
+            Response.Write("<h1>hello foo</h1>");
+            return View();
+        }
     }
 }
